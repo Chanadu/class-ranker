@@ -1,8 +1,7 @@
 <script lang="ts">
 </script>
 
-<div>
-</div>
+<div></div>
 
 <style lang="postcss">
 </style>
