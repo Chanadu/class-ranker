@@ -1,5 +1,5 @@
 {
-	"name": "website-svelte-remake",
+	"name": "class-ranker",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"node": "^20.14.0",
 		"pocketbase": "^0.21.3"
 	}
 }
