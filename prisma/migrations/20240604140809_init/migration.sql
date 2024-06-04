@@ -1,7 +1,0 @@
--- CreateTable
-CREATE TABLE "Vote" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    "winningClass" TEXT NOT NULL,
-    "losingClass" TEXT NOT NULL,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
-);
