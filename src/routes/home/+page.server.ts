@@ -1,3 +1,5 @@
+import prisma from '$lib/prisma';
+import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 let classesList = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
@@ -10,3 +12,4 @@ export const load = (async () => {
 	}
 	return { option1: classesList[index], option2: classesList[index2] };
 }) satisfies PageServerLoad;
+
