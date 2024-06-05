@@ -1,0 +1,1560 @@
+[
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS251"],
+		"classLevels": ["CP"],
+		"className": "ACCOUNTING 1 "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS252"],
+		"classLevels": ["H"],
+		"className": "ACCOUNTING 2 "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS351"],
+		"classLevels": ["H"],
+		"className": "ADVANCED ACCOUNTING "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS131", "BUS132"],
+		"classLevels": ["CP"],
+		"className": "BUSINESS APPLICATIONS AND TECHNOLOGY 1 "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS142"],
+		"classLevels": ["CP"],
+		"className": "BUSINESS APPLICATIONS AND TECHNOLOGY 2 "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS371", "BUS372"],
+		"classLevels": ["CP"],
+		"className": "BUSINESS LAW "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS411", "BUS412"],
+		"classLevels": ["A"],
+		"className": "ENTREPRENEURIAL TACTICS "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS231", "BUS232"],
+		"classLevels": ["CP"],
+		"className": "ENTREPRENEURSHIP "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS171", "BUS172"],
+		"classLevels": ["CP"],
+		"className": "INTRODUCTION TO BUSINESS "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS361", "BUS362"],
+		"classLevels": ["CP"],
+		"className": "INVESTMENT MANAGEMENT "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS281", "BUS282"],
+		"classLevels": ["CP"],
+		"className": "MARKETING "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS301", "BUS302"],
+		"classLevels": ["CP"],
+		"className": "PERSONAL FINANCE "
+	},
+	{
+		"categories": ["Applied Arts", "BUSINESS EDUCATION COURSE OFFERINGS"],
+		"classIDs": ["BUS3Q1", "BUS3Q2"],
+		"classLevels": ["CP"],
+		"className": "PERSONAL FINANCE Online "
+	},
+	{
+		"categories": ["Applied Arts", "DRIVER EDUCATION COURSE OFFERING"],
+		"classIDs": ["D/E231", "D/E232"],
+		"classLevels": ["CP"],
+		"className": "DRIVER EDUCATION "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS241", "FCS242"],
+		"classLevels": ["CP"],
+		"className": "BUSINESS OF FASHION AND DESIGN "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS251", "FCS252"],
+		"classLevels": ["CP"],
+		"className": "CLOTHING AND DESIGN 1 "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS291", "FCS292"],
+		"classLevels": ["CP", "H"],
+		"className": "CLOTHING AND DESIGN 2 "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS111", "FCS112"],
+		"classLevels": ["CP"],
+		"className": "FOOD AND NUTRITION "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS221", "FCS222"],
+		"classLevels": ["CP"],
+		"className": "FOOD PREPARATION "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS321", "FCS322"],
+		"classLevels": ["CP"],
+		"className": "GOURMET FOODS "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS211", "FCS212"],
+		"classLevels": ["CP"],
+		"className": "HUMAN GROWTH AND DEVELOPMENT "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS231", "FCS232"],
+		"classLevels": ["CP"],
+		"className": "INTERIOR DESIGN "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS411", "FCS412"],
+		"classLevels": ["CP"],
+		"className": "LIFE BY DESIGN "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS311", "FCS312"],
+		"classLevels": ["CP"],
+		"className": "TEACHING YOUNG CHILDREN 1 "
+	},
+	{
+		"categories": ["Applied Arts", "FAMILY AND CONSUMER SCIENCES COURSE OFFERINGS"],
+		"classIDs": ["FCS331", "FCS332"],
+		"classLevels": ["CP", "H"],
+		"className": "TEACHING YOUNG CHILDREN 2 "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC431", "VOC432"],
+		"classLevels": [],
+		"className": "AUTOMOTIVE COLLISION REPAIR "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC451", "VOC452"],
+		"classLevels": [],
+		"className": "AUTOMOTIVE COLLISION REPAIR "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC471", "VOC472"],
+		"classLevels": [],
+		"className": "AUTOMOTIVE SERVICE "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC491", "VOC492"],
+		"classLevels": [],
+		"className": "AUTOMOTIVE SERVICE "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC291", "VOC292"],
+		"classLevels": [],
+		"className": "CERTIFIED NURSE ASSISTING "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC071", "VOC072"],
+		"classLevels": [],
+		"className": "COMPUTER SUPPORT SERVICES "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC091", "VOC092"],
+		"classLevels": [],
+		"className": "COMPUTER SUPPORT SERVICES "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC511", "VOC512"],
+		"classLevels": [],
+		"className": "CONSTRUCTION SKILLS AND MANAGEMENT "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC531", "VOC532"],
+		"classLevels": [],
+		"className": "CONSTRUCTION SKILLS AND MANAGEMENT "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC591", "VOC592"],
+		"classLevels": [],
+		"className": "COSMETOLOGY "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC611", "VOC612"],
+		"classLevels": [],
+		"className": "COSMETOLOGY "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC111", "VOC112"],
+		"classLevels": [],
+		"className": "CRIMINAL JUSTICE "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC951", "VOC952"],
+		"classLevels": [],
+		"className": "CULINARY ARTS "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC971", "VOC972"],
+		"classLevels": [],
+		"className": "CULINARY ARTS "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC191", "VOC192"],
+		"classLevels": [],
+		"className": "cybersecurity "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC911", "VOC912"],
+		"classLevels": [],
+		"className": "EARLY EDUCATION AND TEACHING "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC931", "VOC932"],
+		"classLevels": [],
+		"className": "EARLY EDUCATION AND TEACHING "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC311", "VOC312"],
+		"classLevels": [],
+		"className": "EMERGENCY MEDICAL SERVICES "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC221", "VOC222"],
+		"classLevels": [],
+		"className": "FIRE FIGHTING "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC171", "VOC172"],
+		"classLevels": [],
+		"className": "GAME PROGRAMMING AND VIRTUALIZATION "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC551", "VOC552"],
+		"classLevels": [],
+		"className": "industrial Technology "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC121", "VOC122"],
+		"classLevels": [],
+		"className": "LAW ENFORCEMENT AND CSI "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC321", "VOC322"],
+		"classLevels": [],
+		"className": "MEDICAL ASSISTING "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC671", "VOC672"],
+		"classLevels": [],
+		"className": "MULTIMEDIA DESIGN "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC691", "VOC692"],
+		"classLevels": [],
+		"className": "MULTIMEDIA DESIGN "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC711"],
+		"classLevels": [],
+		"className": "voc712 Principles of biomedical science "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC871", "VOC872"],
+		"classLevels": [],
+		"className": "WELDING FABRICATION "
+	},
+	{
+		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
+		"classIDs": ["VOC891", "VOC892"],
+		"classLevels": [],
+		"className": "WELDING FABRICATION "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["JRN921", "JRN922"],
+		"classLevels": ["CP"],
+		"className": "ADVANCED JOURNALISTIC WRITING "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG341", "ENG342"],
+		"classLevels": ["AP", "History", "H"],
+		"className": "American Studies English Language and Composition and AP US "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG371", "ENG372"],
+		"classLevels": ["H"],
+		"className": "AP English Language and Composition "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG451", "ENG452"],
+		"classLevels": ["H"],
+		"className": "AP Literature and Composition "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["JRN911", "JRN912"],
+		"classLevels": ["CP"],
+		"className": "Broadcast Journalism "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG501", "ENG502"],
+		"classLevels": ["CP", "A"],
+		"className": "CREATIVE WRITING "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG522"],
+		"classLevels": ["CP", "A"],
+		"className": "CREATIVE WRITING SEMINAR "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG131", "ENG132"],
+		"classLevels": ["A"],
+		"className": "FRESHMAN ENGLISH "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG111", "ENG112"],
+		"classLevels": ["CP"],
+		"className": "FRESHMAN ENGLISH "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["JRN901", "JRN902"],
+		"classLevels": ["CP"],
+		"className": "JOURNALISTIC WRITING "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG381", "ENG382"],
+		"classLevels": ["A"],
+		"className": "JUNIOR ENGLISH "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG311", "ENG312"],
+		"classLevels": ["CP"],
+		"className": "JUNIOR ENGLISH "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG681", "ENG682"],
+		"classLevels": ["CP"],
+		"className": "Mythology and Folklore "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG601", "ENG602"],
+		"classLevels": ["CP"],
+		"className": "POLITICAL THOUGHT AND ITS LITERATURE "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["JRN951", "JRN952"],
+		"classLevels": ["A"],
+		"className": "PUBLICATION DESIGN AND PRODUCTION "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG761", "ENG762"],
+		"classLevels": ["CP"],
+		"className": "PUBLIC SPEAKING "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG231", "ENG232"],
+		"classLevels": ["A"],
+		"className": "SOPHOMORE ENGLISH "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG211", "ENG212"],
+		"classLevels": ["CP"],
+		"className": "SOPHOMORE ENGLISH "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG722"],
+		"classLevels": ["CP", "A"],
+		"className": "TOPICS IN COMPOSITION: FILM GENRES "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG691"],
+		"classLevels": ["CP", "A"],
+		"className": "TOPICS IN COMPOSITION: MEDIA ANALYSIS "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG431", "ENG432"],
+		"classLevels": ["CP", "A"],
+		"className": "WORLD Literature "
+	},
+	{
+		"categories": ["Communication Arts"],
+		"classIDs": ["ENG541", "ENG542"],
+		"classLevels": ["CP"],
+		"className": "WRITING FOR COLLEGE "
+	},
+	{
+		"categories": [
+			"Computer Science, Engineering and Technology Course Offerings",
+			"COMPUTER SCIENCE COURSE OFFERINGS"
+		],
+		"classIDs": ["CSC391", "CSC392"],
+		"classLevels": ["H"],
+		"className": "AP COMPUTER SCIENCE A "
+	},
+	{
+		"categories": [
+			"Computer Science, Engineering and Technology Course Offerings",
+			"COMPUTER SCIENCE COURSE OFFERINGS"
+		],
+		"classIDs": ["CSC371", "CSC372"],
+		"classLevels": ["H"],
+		"className": "AP COMPUTER SCIENCE PRINCIPLES "
+	},
+	{
+		"categories": [
+			"Computer Science, Engineering and Technology Course Offerings",
+			"COMPUTER SCIENCE COURSE OFFERINGS"
+		],
+		"classIDs": ["CSC161", "CSC162"],
+		"classLevels": ["CP"],
+		"className": "Computer Programming 1 "
+	},
+	{
+		"categories": [
+			"Computer Science, Engineering and Technology Course Offerings",
+			"COMPUTER SCIENCE COURSE OFFERINGS"
+		],
+		"classIDs": ["CSC181", "CSC182"],
+		"classLevels": ["CP"],
+		"className": "Computer Programming 2 "
+	},
+	{
+		"categories": [
+			"Computer Science, Engineering and Technology Course Offerings",
+			"COMPUTER SCIENCE COURSE OFFERINGS"
+		],
+		"classIDs": ["CSC421", "CSC422"],
+		"classLevels": ["H"],
+		"className": "Computer Science Algorithms "
+	},
+	{
+		"categories": [
+			"Computer Science, Engineering and Technology Course Offerings",
+			"COMPUTER SCIENCE COURSE OFFERINGS"
+		],
+		"classIDs": ["CSC251", "CSC252"],
+		"classLevels": ["CP"],
+		"className": "MOBILE APP DEVELOPMENT "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "ENGINEERING COURSE OFFERINGS"],
+		"classIDs": ["TEC241", "TEC242"],
+		"classLevels": ["CP"],
+		"className": "ADVANCED ARCHITECTURAL DESIGN "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "ENGINEERING COURSE OFFERINGS"],
+		"classIDs": ["TEC141", "TEC142"],
+		"classLevels": ["CP"],
+		"className": "ARCHITECTURAL DESIGN "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "ENGINEERING COURSE OFFERINGS"],
+		"classIDs": ["TEC261", "TEC262"],
+		"classLevels": ["H"],
+		"className": "Civil Engineering and Architecture\u2013PLTW "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "ENGINEERING COURSE OFFERINGS"],
+		"classIDs": ["TEC351", "TEC352"],
+		"classLevels": ["H"],
+		"className": "Computer Integrated Manufacturing\u2013 PLTW "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "ENGINEERING COURSE OFFERINGS"],
+		"classIDs": ["TEC291", "TEC292"],
+		"classLevels": ["H"],
+		"className": "Electrical Engineering\u2013PLTW "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "ENGINEERING COURSE OFFERINGS"],
+		"classIDs": ["TEC401", "TEC402"],
+		"classLevels": ["H"],
+		"className": "ENGINEERING DESIGN AND DEVELOPMENT\u2013PLTW "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "ENGINEERING COURSE OFFERINGS"],
+		"classIDs": ["TEC151", "TEC152"],
+		"classLevels": ["CP"],
+		"className": "introduction to Engineering Design\u2013PLTW "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "ENGINEERING COURSE OFFERINGS"],
+		"classIDs": ["TEC301", "TEC302"],
+		"classLevels": ["H"],
+		"className": "Principles of Engineering\u2013PLTW "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "TECHNOLOGY COURSE OFFERINGS"],
+		"classIDs": ["TEC501", "TEC502"],
+		"classLevels": ["CP"],
+		"className": "GAME DEVELOPMENT 1 "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "TECHNOLOGY COURSE OFFERINGS"],
+		"classIDs": ["TEC511", "TEC512"],
+		"classLevels": ["CP"],
+		"className": "GAME DEVELOPMENT 2 "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "TECHNOLOGY COURSE OFFERINGS"],
+		"classIDs": ["TEC111", "TEC112"],
+		"classLevels": ["CP"],
+		"className": "Motion Graphics and Visual Effects "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "TECHNOLOGY COURSE OFFERINGS"],
+		"classIDs": ["TEC181", "TEC182"],
+		"classLevels": ["CP"],
+		"className": "PRINT MEDIA 1 "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "TECHNOLOGY COURSE OFFERINGS"],
+		"classIDs": ["TEC251", "TEC252"],
+		"classLevels": ["CP"],
+		"className": "PRINT MEDIA 2 "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "TECHNOLOGY COURSE OFFERINGS"],
+		"classIDs": ["TEC121", "TEC122"],
+		"classLevels": ["CP"],
+		"className": "Video Editing and Production "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "TECHNOLOGY COURSE OFFERINGS"],
+		"classIDs": ["TEC191", "TEC192"],
+		"classLevels": ["CP"],
+		"className": "Virtual Reality "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "TECHNOLOGY COURSE OFFERINGS"],
+		"classIDs": ["TEC171", "TEC172"],
+		"classLevels": ["CP"],
+		"className": "WEB DEVELOPMENT 1 "
+	},
+	{
+		"categories": ["Computer Science, Engineering and Technology Course Offerings", "TECHNOLOGY COURSE OFFERINGS"],
+		"classIDs": ["TEC281", "TEC282"],
+		"classLevels": ["CP"],
+		"className": "WEB DEVELOPMENT 2 "
+	},
+	{
+		"categories": ["Fine Arts", "DANCE COURSE OFFERINGS"],
+		"classIDs": ["DNC311", "DNC312"],
+		"classLevels": ["CP"],
+		"className": "Technical Skills "
+	},
+	{
+		"categories": ["Fine Arts", "DANCE COURSE OFFERINGS"],
+		"classIDs": ["DNC501", "DNC502"],
+		"classLevels": ["CP", "H"],
+		"className": "CONCERT DANCE "
+	},
+	{
+		"categories": ["Fine Arts", "DANCE COURSE OFFERINGS"],
+		"classIDs": ["DNC101", "DNC102"],
+		"classLevels": ["CP"],
+		"className": "DANCE 1 "
+	},
+	{
+		"categories": ["Fine Arts", "DANCE COURSE OFFERINGS"],
+		"classIDs": ["DNC201", "DNC202"],
+		"classLevels": ["CP"],
+		"className": "DANCE 2 "
+	},
+	{
+		"categories": ["Fine Arts", "DANCE COURSE OFFERINGS"],
+		"classIDs": ["DNC301", "DNC302"],
+		"classLevels": ["CP"],
+		"className": "DANCE 3 "
+	},
+	{
+		"categories": ["Fine Arts", "DANCE COURSE OFFERINGS"],
+		"classIDs": ["DNC401", "DNC402"],
+		"classLevels": ["CP"],
+		"className": "DANCE 4 "
+	},
+	{
+		"categories": ["Fine Arts", "DANCE COURSE OFFERINGS"],
+		"classIDs": ["DNC601", "DNC602"],
+		"classLevels": ["CP"],
+		"className": "DANCE LEADERSHIP "
+	},
+	{
+		"categories": ["Fine Arts", "DANCE COURSE OFFERINGS"],
+		"classIDs": ["DNC321", "DNC322"],
+		"classLevels": ["CP"],
+		"className": "JAZZ FUSION "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART531", "ART532"],
+		"classLevels": ["CP"],
+		"className": "2D ANIMATION "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART541", "ART542"],
+		"classLevels": ["CP"],
+		"className": "3D ANIMATION "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART421", "ART422"],
+		"classLevels": ["A"],
+		"className": "ADVANCED PHOTOGRAPHY AND DIGITAL DESIGN "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART721", "ART722"],
+		"classLevels": ["H"],
+		"className": "AP ART HISTORY "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART871", "ART872"],
+		"classLevels": ["H"],
+		"className": "AP PHOTOGRAPHY AND DIGITAL DESIGN "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART701"],
+		"classLevels": ["CP"],
+		"className": "ART HISTORY 1 "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART702"],
+		"classLevels": ["CP"],
+		"className": "ART HISTORY 2 "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART501", "ART502"],
+		"classLevels": ["CP"],
+		"className": "Digital Art and Design 1 "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART511", "ART512"],
+		"classLevels": ["CP"],
+		"className": "Digital Art and Design 2 "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART401", "ART402"],
+		"classLevels": ["CP"],
+		"className": "PHOTOGRAPHY 1 "
+	},
+	{
+		"categories": ["Fine Arts", "MEDIA ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART411", "ART412"],
+		"classLevels": ["CP"],
+		"className": "PHOTOGRAPHY 2 "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS211", "MUS212"],
+		"classLevels": ["CP", "A"],
+		"className": "ADVANCED CHORUS "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS471", "MUS472"],
+		"classLevels": ["Cp"],
+		"className": "Advanced music production "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS131", "MUS132"],
+		"classLevels": ["CP"],
+		"className": "wind symphony "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS801", "MUS802"],
+		"classLevels": ["H"],
+		"className": "AP MUSIC THEORY "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS311", "MUS312"],
+		"classLevels": ["CP"],
+		"className": "CONCERT ORCHESTRA "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS101", "MUS102"],
+		"classLevels": ["CP"],
+		"className": "FRESHMAN BAND "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS421", "MUS422"],
+		"classLevels": ["CP"],
+		"className": "GUITAR 1 "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS461", "MUS462"],
+		"classLevels": ["CP"],
+		"className": "GUITAR 2 "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS141", "MUS142"],
+		"classLevels": ["CP", "A"],
+		"className": "wind ensemble "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS431", "MUS432"],
+		"classLevels": ["CP"],
+		"className": "Music Production 1 "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS451", "MUS452"],
+		"classLevels": ["CP"],
+		"className": "Music Production 2 "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS441", "MUS442"],
+		"classLevels": ["CP", "A"],
+		"className": "PATRIOT GUITAR ENSEMBLE "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS321", "MUS322"],
+		"classLevels": ["CP", "A"],
+		"className": "PATRIOT ORCHESTRA "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS221", "MUS222"],
+		"classLevels": ["CP", "A"],
+		"className": "PATRIOT SINGERS "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS401", "MUS402"],
+		"classLevels": ["CP"],
+		"className": "PIANO 1 "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS201", "MUS202"],
+		"classLevels": ["CP"],
+		"className": "STEVENSON CHORUS "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS301", "MUS302"],
+		"classLevels": ["CP"],
+		"className": "Stevenson Orchestra "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS121", "MUS122"],
+		"classLevels": ["CP"],
+		"className": "SYMPHONIC BAND "
+	},
+	{
+		"categories": ["Fine Arts", "MUSIC COURSE OFFERINGS"],
+		"classIDs": ["MUS331", "MUS332"],
+		"classLevels": ["CP"],
+		"className": "SYMPHONIC ORCHESTRA "
+	},
+	{
+		"categories": ["Fine Arts", "THEATRE COURSE OFFERINGS"],
+		"classIDs": ["THR101", "THR102"],
+		"classLevels": ["CP"],
+		"className": "ACTING 1 "
+	},
+	{
+		"categories": ["Fine Arts", "THEATRE COURSE OFFERINGS"],
+		"classIDs": ["THR111", "THR112"],
+		"classLevels": ["CP"],
+		"className": "ACTING 2 "
+	},
+	{
+		"categories": ["Fine Arts", "THEATRE COURSE OFFERINGS"],
+		"classIDs": ["THR211"],
+		"classLevels": ["CP"],
+		"className": "ACTING 3 "
+	},
+	{
+		"categories": ["Fine Arts", "THEATRE COURSE OFFERINGS"],
+		"classIDs": ["THR212"],
+		"classLevels": ["CP"],
+		"className": "ACTING 4 "
+	},
+	{
+		"categories": ["Fine Arts", "THEATRE COURSE OFFERINGS"],
+		"classIDs": ["THR401", "THR402"],
+		"classLevels": ["A"],
+		"className": "ADVANCED ACTING "
+	},
+	{
+		"categories": ["Fine Arts", "THEATRE COURSE OFFERINGS"],
+		"classIDs": ["THR301", "THR302"],
+		"classLevels": ["CP"],
+		"className": "Theatre Leadership: Directing and Management "
+	},
+	{
+		"categories": ["Fine Arts", "THEATRE COURSE OFFERINGS"],
+		"classIDs": ["THR601", "THR602"],
+		"classLevels": ["CP"],
+		"className": "LEADERSHIP IN THEATRE STUDIES "
+	},
+	{
+		"categories": ["Fine Arts", "THEATRE COURSE OFFERINGS"],
+		"classIDs": ["THR121", "THR122"],
+		"classLevels": ["CP"],
+		"className": "THEATRE DESIGN AND STAGECRAFT "
+	},
+	{
+		"categories": ["Fine Arts", "VISUAL ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART631", "ART632"],
+		"classLevels": ["CP"],
+		"className": "Advanced Ceramics, Metals and Sculpture "
+	},
+	{
+		"categories": ["Fine Arts", "VISUAL ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART621", "ART622"],
+		"classLevels": ["CP"],
+		"className": "ADVANCED DRAWING, PAINTING and MIXED MEDIA "
+	},
+	{
+		"categories": ["Fine Arts", "VISUAL ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART801", "ART802"],
+		"classLevels": ["H"],
+		"className": "AP ART: DRAWING, 2D and 3D DESIGN "
+	},
+	{
+		"categories": ["Fine Arts", "VISUAL ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART101", "ART102"],
+		"classLevels": ["CP"],
+		"className": "ART AND DESIGN "
+	},
+	{
+		"categories": ["Fine Arts", "VISUAL ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART201", "ART202"],
+		"classLevels": ["CP"],
+		"className": "CERAMICS "
+	},
+	{
+		"categories": ["Fine Arts", "VISUAL ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART221", "ART222"],
+		"classLevels": ["CP"],
+		"className": "DRAWING "
+	},
+	{
+		"categories": ["Fine Arts", "VISUAL ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART241", "ART242"],
+		"classLevels": ["CP"],
+		"className": "METALS AND JEWELRY "
+	},
+	{
+		"categories": ["Fine Arts", "VISUAL ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART261", "ART262"],
+		"classLevels": ["CP"],
+		"className": "PAINTING "
+	},
+	{
+		"categories": ["Fine Arts", "VISUAL ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART281", "ART282"],
+		"classLevels": ["CP"],
+		"className": "SCULPTURE "
+	},
+	{
+		"categories": ["Fine Arts", "VISUAL ARTS COURSE OFFERINGS"],
+		"classIDs": ["ART611", "ART612"],
+		"classLevels": ["CP"],
+		"className": "Mixed Media "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH441", "MTH442"],
+		"classLevels": ["CP"],
+		"className": "Advanced Mathematical Decision Making "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH151", "MTH152"],
+		"classLevels": ["CP"],
+		"className": "Algebra 1 "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH351", "MTH352"],
+		"classLevels": ["CP"],
+		"className": "Algebra 2 "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH171", "MTH172"],
+		"classLevels": ["CP"],
+		"className": "Algebra 2 AB/BC "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH471", "MTH472"],
+		"classLevels": ["H"],
+		"className": "AP Calculus AB "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH491", "MTH492"],
+		"classLevels": ["H"],
+		"className": "AP Calculus BC "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH411", "MTH412"],
+		"classLevels": ["H"],
+		"className": "AP Precalculus AB "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH421", "MTH422"],
+		"classLevels": ["H"],
+		"className": "AP Precalculus BC "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH461", "MTH462"],
+		"classLevels": ["H"],
+		"className": "AP Statistics "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH592"],
+		"classLevels": ["H"],
+		"className": "College Linear Algebra "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH591"],
+		"classLevels": ["H"],
+		"className": "COLLEGE MULTIVARIABLE CALCULUS "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH481", "MTH482"],
+		"classLevels": ["CP"],
+		"className": "Data Science "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH251", "MTH252"],
+		"classLevels": ["CP"],
+		"className": "Geometry "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH271", "MTH272"],
+		"classLevels": ["CP"],
+		"className": "Geometry AB/BC "
+	},
+	{
+		"categories": ["Mathematics", "MATHEMATICS COURSE OFFERINGS"],
+		"classIDs": ["MTH431", "MTH432"],
+		"classLevels": ["CP"],
+		"className": "Mathematical Modeling and Design "
+	},
+	{
+		"categories": ["Multilingual Learning", "FRENCH COURSE OFFERINGS"],
+		"classIDs": ["FRE601", "FRE602"],
+		"classLevels": ["H"],
+		"className": "AP FRENCH LANGUAGE "
+	},
+	{
+		"categories": ["Multilingual Learning", "FRENCH COURSE OFFERINGS"],
+		"classIDs": ["FRE101", "FRE102"],
+		"classLevels": ["CP"],
+		"className": "FRENCH 1 "
+	},
+	{
+		"categories": ["Multilingual Learning", "FRENCH COURSE OFFERINGS"],
+		"classIDs": ["FRE211", "FRE212"],
+		"classLevels": ["A"],
+		"className": "FRENCH 2 "
+	},
+	{
+		"categories": ["Multilingual Learning", "FRENCH COURSE OFFERINGS"],
+		"classIDs": ["FRE311", "FRE312"],
+		"classLevels": ["A"],
+		"className": "FRENCH 3 "
+	},
+	{
+		"categories": ["Multilingual Learning", "GERMAN COURSE OFFERINGS"],
+		"classIDs": ["GRE601", "GRE602"],
+		"classLevels": ["H"],
+		"className": "AP GERMAN LANGUAGE and culture "
+	},
+	{
+		"categories": ["Multilingual Learning", "GERMAN COURSE OFFERINGS"],
+		"classIDs": ["GRE101", "GRE102"],
+		"classLevels": ["CP"],
+		"className": "GERMAN 1 "
+	},
+	{
+		"categories": ["Multilingual Learning", "GERMAN COURSE OFFERINGS"],
+		"classIDs": ["GRE211", "GRE212"],
+		"classLevels": ["A"],
+		"className": "GERMAN 2 "
+	},
+	{
+		"categories": ["Multilingual Learning", "GERMAN COURSE OFFERINGS"],
+		"classIDs": ["GRE311", "GRE312"],
+		"classLevels": ["A"],
+		"className": "GERMAN 3 "
+	},
+	{
+		"categories": ["Multilingual Learning", "HEBREW COURSE OFFERINGS"],
+		"classIDs": ["HBR101", "HBR102"],
+		"classLevels": ["CP"],
+		"className": "HEBREW 1 "
+	},
+	{
+		"categories": ["Multilingual Learning", "HEBREW COURSE OFFERINGS"],
+		"classIDs": ["HBR211", "HBR212"],
+		"classLevels": ["A"],
+		"className": "HEBREW 2 "
+	},
+	{
+		"categories": ["Multilingual Learning", "HEBREW COURSE OFFERINGS"],
+		"classIDs": ["HBR311", "HBR312"],
+		"classLevels": ["A"],
+		"className": "HEBREW 3 "
+	},
+	{
+		"categories": ["Multilingual Learning", "HEBREW COURSE OFFERINGS"],
+		"classIDs": ["HBR411", "HBR412"],
+		"classLevels": ["A"],
+		"className": "HEBREW 4 "
+	},
+	{
+		"categories": ["Multilingual Learning", "LATIN COURSE OFFERINGS"],
+		"classIDs": ["LAT621", "LAT622"],
+		"classLevels": ["H"],
+		"className": "AP LATIN "
+	},
+	{
+		"categories": ["Multilingual Learning", "LATIN COURSE OFFERINGS"],
+		"classIDs": ["LAT101", "LAT102"],
+		"classLevels": ["CP"],
+		"className": "LATIN 1 "
+	},
+	{
+		"categories": ["Multilingual Learning", "LATIN COURSE OFFERINGS"],
+		"classIDs": ["LAT211", "LAT212"],
+		"classLevels": ["A"],
+		"className": "LATIN 2 "
+	},
+	{
+		"categories": ["Multilingual Learning", "LATIN COURSE OFFERINGS"],
+		"classIDs": ["LAT311", "LAT312"],
+		"classLevels": ["A"],
+		"className": "LATIN 3 "
+	},
+	{
+		"categories": ["Multilingual Learning", "MANDARIN CHINESE COURSE OFFERINGS"],
+		"classIDs": ["CHI601", "CHI602"],
+		"classLevels": ["H"],
+		"className": "AP CHINESE LANGUAGE AND CULTURE "
+	},
+	{
+		"categories": ["Multilingual Learning", "MANDARIN CHINESE COURSE OFFERINGS"],
+		"classIDs": ["CHI611", "CHI612"],
+		"classLevels": ["H"],
+		"className": "Chinese Literature, Media and Culture "
+	},
+	{
+		"categories": ["Multilingual Learning", "MANDARIN CHINESE COURSE OFFERINGS"],
+		"classIDs": ["CHI101", "CHI102"],
+		"classLevels": ["CP"],
+		"className": "MANDARIN CHINESE 1 "
+	},
+	{
+		"categories": ["Multilingual Learning", "MANDARIN CHINESE COURSE OFFERINGS"],
+		"classIDs": ["CHI211", "CHI212"],
+		"classLevels": ["A"],
+		"className": "MANDARIN CHINESE 2 "
+	},
+	{
+		"categories": ["Multilingual Learning", "MANDARIN CHINESE COURSE OFFERINGS"],
+		"classIDs": ["CHI311", "CHI312"],
+		"classLevels": ["A"],
+		"className": "MANDARIN CHINESE 3 "
+	},
+	{
+		"categories": ["Multilingual Learning", "MANDARIN CHINESE COURSE OFFERINGS"],
+		"classIDs": ["CHI411", "CHI412"],
+		"classLevels": ["A"],
+		"className": "MANDARIN CHINESE 4 "
+	},
+	{
+		"categories": ["Multilingual Learning", "SPANISH COURSE OFFERINGS"],
+		"classIDs": ["SPA511", "SPA512"],
+		"classLevels": ["CP"],
+		"className": "ADVANCED SPANISH CONVERSATION AND CULTURE "
+	},
+	{
+		"categories": ["Multilingual Learning", "SPANISH COURSE OFFERINGS"],
+		"classIDs": ["SPA601", "SPA602"],
+		"classLevels": ["H"],
+		"className": "AP SPANISH LANGUAGE AND CULTURE "
+	},
+	{
+		"categories": ["Multilingual Learning", "SPANISH COURSE OFFERINGS"],
+		"classIDs": ["SPA611", "SPA612"],
+		"classLevels": ["H"],
+		"className": "AP SPANISH LITERATURE AND CULTURE "
+	},
+	{
+		"categories": ["Multilingual Learning", "SPANISH COURSE OFFERINGS"],
+		"classIDs": ["SPA101", "SPA102"],
+		"classLevels": ["CP"],
+		"className": "SPANISH 1 "
+	},
+	{
+		"categories": ["Multilingual Learning", "SPANISH COURSE OFFERINGS"],
+		"classIDs": ["SPA201", "SPA202"],
+		"classLevels": ["CP"],
+		"className": "SPANISH 2 "
+	},
+	{
+		"categories": ["Multilingual Learning", "SPANISH COURSE OFFERINGS"],
+		"classIDs": ["SPA211", "SPA212"],
+		"classLevels": ["A"],
+		"className": "SPANISH 2-3 "
+	},
+	{
+		"categories": ["Multilingual Learning", "SPANISH COURSE OFFERINGS"],
+		"classIDs": ["SPA301", "SPA302"],
+		"classLevels": ["CP"],
+		"className": "SPANISH 3 "
+	},
+	{
+		"categories": ["Multilingual Learning", "SPANISH COURSE OFFERINGS"],
+		"classIDs": ["SPA311", "SPA312"],
+		"classLevels": ["A"],
+		"className": "SPANISH 3-4 "
+	},
+	{
+		"categories": ["Multilingual Learning", "SPANISH COURSE OFFERINGS"],
+		"classIDs": ["SPA401", "SPA402"],
+		"classLevels": ["CP"],
+		"className": "SPANISH 4 "
+	},
+	{
+		"categories": ["Multilingual Learning", "ELL COURSE OFFERINGS"],
+		"classIDs": ["ELL161", "ELL162"],
+		"classLevels": ["CP"],
+		"className": "BEGINNING ELL LANGUAGE ARTS "
+	},
+	{
+		"categories": ["Multilingual Learning", "ELL COURSE OFFERINGS"],
+		"classIDs": ["ELL561", "ELL562"],
+		"classLevels": ["CP"],
+		"className": "CURRENT EVENTS "
+	},
+	{
+		"categories": ["Multilingual Learning", "ELL COURSE OFFERINGS"],
+		"classIDs": ["ELL261", "ELL262"],
+		"classLevels": ["CP"],
+		"className": "INTERMEDIATE ELL LANGUAGE ARTS "
+	},
+	{
+		"categories": ["Multilingual Learning", "ELL COURSE OFFERINGS"],
+		"classIDs": ["ELL361", "ELL362"],
+		"classLevels": [],
+		"className": "Multilingual Advanced Language "
+	},
+	{
+		"categories": ["Multilingual Learning", "ELL COURSE OFFERINGS"],
+		"classIDs": ["ELL371", "ELL372"],
+		"classLevels": [],
+		"className": "Multilingual Advanced Literature "
+	},
+	{
+		"categories": ["Multilingual Learning", "ELL COURSE OFFERINGS"],
+		"classIDs": ["ELL461", "ELL462"],
+		"classLevels": ["CP"],
+		"className": "World and Contemporary Literature "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED331", "PED332"],
+		"classLevels": ["CP"],
+		"className": "ADVENTURE EDUCATION "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED111", "PED112"],
+		"classLevels": ["CP"],
+		"className": "ALTERNATIVE PHYSICAL EDUCATION "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED41L", "PED42L"],
+		"classLevels": ["CP"],
+		"className": "ALTERNATIVE PHYSICAL EDUCATION LEADERSHIP "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED231", "PED232"],
+		"classLevels": ["CP"],
+		"className": "APPLIED HEALTH "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED451", "PED452"],
+		"classLevels": ["CP"],
+		"className": "CHOICE PE "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED031", "PED032"],
+		"classLevels": ["CP"],
+		"className": "CHOICE PE Early Bird "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED341", "PED342"],
+		"classLevels": ["CP"],
+		"className": "FOUNDATIONAL FITNESS CHOICE PE "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED121", "PED122"],
+		"classLevels": ["CP"],
+		"className": "FRESHMAN FOUNDATIONAL FITNESS CHOICE PE "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED201", "PED202"],
+		"classLevels": ["CP"],
+		"className": "HEALTH EDUCATION "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED501"],
+		"classLevels": ["CP"],
+		"className": "LIFEGUARD TRAINING AND CERTIFICATION "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED61L", "PED62L"],
+		"classLevels": ["CP"],
+		"className": "PHYSICAL EDUCATION LEADERSHIP TRAINING "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED71L", "PED72L"],
+		"classLevels": ["CP"],
+		"className": "POOL LEADERSHIP "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED81L", "PED82L"],
+		"classLevels": ["CP"],
+		"className": "SENIOR LEADERSHIP "
+	},
+	{
+		"categories": ["Physical Education and Health Education"],
+		"classIDs": ["PED52L"],
+		"classLevels": ["CP"],
+		"className": "WATER SAFETY INSTRUCTION and certification "
+	},
+	{ "categories": ["Science"], "classIDs": ["SCI631", "SCI632"], "classLevels": ["H"], "className": "AP BIOLOGY " },
+	{
+		"categories": ["Science"],
+		"classIDs": [],
+		"classLevels": ["H"],
+		"className": "SCI63E1 SCI63E2 AP BIOLOGY EARLY BIRD "
+	},
+	{ "categories": ["Science"], "classIDs": ["SCI651", "SCI652"], "classLevels": ["H"], "className": "AP CHEMISTRY " },
+	{
+		"categories": ["Science"],
+		"classIDs": [],
+		"classLevels": ["H"],
+		"className": "SCI65E1 SCI65E2 AP CHEMISTRY EARLY BIRD "
+	},
+	{
+		"categories": ["Science"],
+		"classIDs": ["SCI641", "SCI642"],
+		"classLevels": ["H"],
+		"className": "AP ENVIRONMENTAL SCIENCE "
+	},
+	{ "categories": ["Science"], "classIDs": ["SCI611", "SCI612"], "classLevels": ["H"], "className": "AP PHYSICS 1 " },
+	{
+		"categories": ["Science"],
+		"classIDs": [],
+		"classLevels": ["H"],
+		"className": "SCI61E1 SCI61E2 AP PHYSICS 1 EARLY BIRD "
+	},
+	{ "categories": ["Science"], "classIDs": ["SCI681", "SCI682"], "classLevels": ["H"], "className": "AP PHYSICS 2 " },
+	{ "categories": ["Science"], "classIDs": ["SCI661", "SCI662"], "classLevels": ["H"], "className": "AP PHYSICS C " },
+	{
+		"categories": ["Science"],
+		"classIDs": [],
+		"classLevels": ["H"],
+		"className": "SCI66E1 SCI66E2 AP PHYSICS C EARLY BIRD "
+	},
+	{ "categories": ["Science"], "classIDs": ["SCI111", "SCI112"], "classLevels": ["A"], "className": "BIOLOGY " },
+	{ "categories": ["Science"], "classIDs": ["SCI201", "SCI202"], "classLevels": ["CP"], "className": "BIOLOGY " },
+	{ "categories": ["Science"], "classIDs": ["SCI211", "SCI212"], "classLevels": ["A"], "className": "CHEMISTRY " },
+	{ "categories": ["Science"], "classIDs": ["SCI301", "SCI302"], "classLevels": ["CP"], "className": "CHEMISTRY " },
+	{
+		"categories": ["Science"],
+		"classIDs": ["SCI271", "SCI272"],
+		"classLevels": ["CP"],
+		"className": "EARTH SCIENCE "
+	},
+	{
+		"categories": ["Science"],
+		"classIDs": ["SCI671", "SCI672"],
+		"classLevels": ["H"],
+		"className": "EARTH SCIENCE "
+	},
+	{
+		"categories": ["Science"],
+		"classIDs": ["SCI531", "SCI532"],
+		"classLevels": ["CP"],
+		"className": "Horticulture "
+	},
+	{
+		"categories": ["Science"],
+		"classIDs": ["SCI521", "SCI522"],
+		"classLevels": ["A"],
+		"className": "HUMAN ANATOMY AND PHYSIOLOGY "
+	},
+	{ "categories": ["Science"], "classIDs": ["SCI401", "SCI402"], "classLevels": ["CP"], "className": "PHYSICS " },
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC581", "SOC582"],
+		"classLevels": ["AP", "Composition", "H"],
+		"className": "American Studies US History and AP English Language and "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC631", "SOC632"],
+		"classLevels": ["H"],
+		"className": "AP Comparative Government and politics "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": [],
+		"classLevels": ["H"],
+		"className": "SOC63Q1 SOC63Q2 AP Comparative Government and politics Online "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC691", "SOC692"],
+		"classLevels": ["H"],
+		"className": "AP African American Studies "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC601", "SOC602"],
+		"classLevels": ["H"],
+		"className": "AP EUROPEAN HISTORY "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC681", "SOC682"],
+		"classLevels": ["H"],
+		"className": "AP GOVERNMENT\u2013UNITED STATES "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC6Q1", "SOC6Q2"],
+		"classLevels": ["H"],
+		"className": "AP GOVERNMENT-UNITED STATES Online "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC611", "SOC612"],
+		"classLevels": ["H"],
+		"className": "AP HUMAN GEOGRAPHY "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC641", "SOC642"],
+		"classLevels": ["H"],
+		"className": "AP MACROECONOMICS "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC651", "SOC652"],
+		"classLevels": ["H"],
+		"className": "AP MICROECONOMICS "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC661", "SOC662"],
+		"classLevels": ["H"],
+		"className": "AP PSYCHOLOGY "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC6B1", "SOC6B2"],
+		"classLevels": ["H"],
+		"className": "AP PSYCHOLOGY\u2013BLENDED "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC621", "SOC622"],
+		"classLevels": ["H"],
+		"className": "AP US HISTORY "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC511", "SOC512"],
+		"classLevels": ["CP"],
+		"className": "CONSTITUTIONAL LAW "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC411", "SOC412"],
+		"classLevels": ["CP"],
+		"className": "ECONOMICS "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC531", "SOC532"],
+		"classLevels": ["CP"],
+		"className": "GLOBAL RELATIONS "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC401", "SOC402"],
+		"classLevels": ["CP"],
+		"className": "GOVERNMENT "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC431", "SOC432"],
+		"classLevels": ["CP"],
+		"className": "Law In American Society "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC671", "SOC672"],
+		"classLevels": ["H"],
+		"className": "PHILOSOPHY AND POLITICAL THEORY "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC561", "SOC562"],
+		"classLevels": ["CP"],
+		"className": "POLITICAL THOUGHT AND ITS LITERATURE "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC551", "SOC552"],
+		"classLevels": ["CP"],
+		"className": "PSYCHOLOGY "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC541", "SOC542"],
+		"classLevels": ["CP"],
+		"className": "SOCIOLOGY "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC571", "SOC572"],
+		"classLevels": ["H"],
+		"className": "SOCIOLOGY "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC321", "SOC322"],
+		"classLevels": ["CP"],
+		"className": "US HISTORY "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC101", "SOC102"],
+		"classLevels": ["CP"],
+		"className": "WORLD HISTORY AND GEOGRAPHY "
+	},
+	{
+		"categories": ["Social Studies"],
+		"classIDs": ["SOC501", "SOC502"],
+		"classLevels": ["CP"],
+		"className": "WORLD RELIGIONS "
+	}
+]

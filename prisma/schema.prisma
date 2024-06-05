@@ -19,9 +19,9 @@ model Vote {
 }
 
 model Class {
-    id         Int    @id @default(autoincrement())
-    name       String
-    category   String
-    officalTag String
-    Level      String
+    id          Int      @id @default(autoincrement())
+    name        String
+    categories  String[]
+    officalTags String[]
+    levels      String[]
 }
