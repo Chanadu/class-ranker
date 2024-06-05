@@ -1,8 +1,10 @@
 // prisma/seed.ts
-
 import { PrismaClient } from '@prisma/client';
+import assert from 'assert';
 import classData from '../src/lib/courses.json'; //assert { type: 'json' };
 import voteData from '../src/lib/data.json'; //assert { type: 'json' };
+
+assert(false); // DONT USE THSI FILE, I ALREADY SEEDED THE DATABASE
 
 const prisma = new PrismaClient();
 
