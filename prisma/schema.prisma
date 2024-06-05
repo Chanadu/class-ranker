@@ -25,3 +25,11 @@ model Class {
     officalTags String[]
     levels      String[]
 }
+
+model RankedClass {
+    id                Int    @id @default(autoincrement())
+    name              String
+    winningPercentage Float
+    winningVotes      Int
+    losingVotes       Int
+}

@@ -2,6 +2,8 @@
 	import { invalidateAll } from '$app/navigation';
 	import Option from './option.svelte';
 	async function voteA(option1: string, option2: string) {
+		option1 = option1.toUpperCase();
+		option2 = option2.toUpperCase();
 		await fetch('/home', {
 			method: 'POST',
 			body: JSON.stringify({
@@ -16,14 +18,14 @@
 
 <div class="flex h-screen flex-row items-center justify-evenly">
 	<Option
-		optionText="{data.option1}"
+		optionNumber="{0}"
 		vote="{voteA}"
 		options="{[data.option1, data.option2]}"
 	></Option>
 	<Option
-		optionText="{data.option2}"
+		optionNumber="{1}"
 		vote="{voteA}"
-		options="{[data.option2, data.option1]}"
+		options="{[data.option1, data.option2]}"
 	></Option>
 </div>
 

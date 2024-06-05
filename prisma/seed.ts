@@ -1,10 +1,9 @@
 // prisma/seed.ts
 import { PrismaClient } from '@prisma/client';
-import assert from 'assert';
 import classData from '../src/lib/courses.json'; //assert { type: 'json' };
 import voteData from '../src/lib/data.json'; //assert { type: 'json' };
 
-assert(false); // DONT USE THSI FILE, I ALREADY SEEDED THE DATABASE
+//assert(false); // DONT USE THSI FILE, I ALREADY SEEDED THE DATABASE
 
 const prisma = new PrismaClient();
 
@@ -22,15 +21,22 @@ async function main() {
 		//		console.log(`Created user with id: ${vote.id}`);
 	}
 	for (const c of classData) {
-		const cla = await prisma.class.create({
+		await prisma.class.create({
 			data: {
-				name: c.className,
+				name: c.className.toUpperCase(),
 				categories: c.categories,
 				officalTags: c.classIDs,
 				levels: c.classLevels,
 			},
 		});
-		console.log('Created class with id: ');
+		await prisma.rankedClass.create({
+			data: {
+				name: c.className.toUpperCase(),
+				winningPercentage: -1.0,
+				winningVotes: 0,
+				losingVotes: 0,
+			},
+		});
 	}
 	console.log(`Seeding finished.`);
 }
