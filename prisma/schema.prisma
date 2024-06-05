@@ -17,3 +17,11 @@ model Vote {
     losingClass  String
     createdAt    DateTime @default(now())
 }
+
+model Class {
+    id         Int    @id @default(autoincrement())
+    name       String
+    category   String
+    officalTag String
+    Level      String
+}
