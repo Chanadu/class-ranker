@@ -2,6 +2,9 @@ import prisma from '$lib/prisma';
 import type { PageServerLoad } from './$types';
 
 let classesList = await prisma.class.findMany();
+if (classesList.length === 0) {
+	console.log('AAAAAA');
+}
 export const load = (async () => {
 	let index = Math.floor(Math.random() * (classesList.length - 1));
 	let index2 = Math.floor(Math.random() * (classesList.length - 1));

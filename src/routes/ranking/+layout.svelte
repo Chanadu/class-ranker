@@ -1,5 +1,4 @@
 <script lang="ts">
-	export let data;
 </script>
 
 <svelte:head>
@@ -7,6 +6,7 @@
 	<meta
 		name="description"
 		content="Ranking"
+		title="Ranking"
 	/>
 </svelte:head>
 

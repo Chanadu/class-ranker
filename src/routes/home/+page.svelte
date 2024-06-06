@@ -1,7 +1,10 @@
 <script lang="ts">
-	import { invalidateAll } from '$app/navigation';
+	import { goto } from '$app/navigation';
 	import Option from './option.svelte';
+	let voted = false;
 	async function voteA(option1: string, option2: string) {
+		if (voted) return;
+		voted = true;
 		option1 = option1.toUpperCase();
 		option2 = option2.toUpperCase();
 		await fetch('/home', {
@@ -11,7 +14,7 @@
 				option2,
 			}),
 		});
-		invalidateAll();
+		goto('/loading');
 	}
 	export let data;
 </script>

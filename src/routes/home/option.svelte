@@ -18,7 +18,7 @@
 		} catch (e) {}
 	}}"
 >
-	<div class="absolute left-0 top-0 h-full w-full bg-secondary opacity-15"></div>
+	<div class="absolute left-0 top-0 h-full w-full bg-secondary opacity-30"></div>
 	<div class="items-around flex h-full w-full flex-col justify-center text-wrap px-4 py-4">
 		<div class="text-3xl">
 			{options[optionNumber].name.toUpperCase()}

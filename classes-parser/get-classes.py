@@ -65,7 +65,7 @@ for line in newdata.splitlines():
 		for x in splitLine:
 			if x == ' ' or x == '—' or x == '\u2013' or x == '\u2014' or len(x) == 0:
 				continue
-			if len(x) == 6 and isClassID(x):
+			if len(x) >= 6 and isClassID(x):
 				classIds.append(x)
 				continue
 			if isClassLevel(x):
