@@ -20,7 +20,7 @@
 	}
 </script>
 
-<div class="m-0 min-h-screen bg-background text-text">
+<div class="m-0 min-h-screen bg-background text-text transition-all duration-100">
 	<Navbar></Navbar>
 	<div class="mx-auto max-w-6xl">
 		<slot></slot>

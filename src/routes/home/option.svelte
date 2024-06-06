@@ -11,14 +11,14 @@
 </script>
 
 <button
-	class="relative flex h-96 w-96 cursor-pointer select-none items-center justify-center rounded-2xl border-2 border-primary text-center align-middle shadow-sm shadow-accent transition-all duration-200 hover:-translate-y-2 hover:border-secondary hover:shadow-lg active:translate-y-0 active:shadow-none disabled:pointer-events-none"
+	class="relative flex h-96 w-96 cursor-pointer select-none items-center justify-center rounded-2xl border-2 border-primary bg-secondary text-center align-middle shadow-sm shadow-accent transition-all duration-200 hover:-translate-y-2 hover:border-accent hover:shadow-lg active:translate-y-0 active:shadow-none disabled:pointer-events-none"
 	on:click="{async () => {
 		try {
 			await vote(options[optionNumber].name.toUpperCase(), options[1 - optionNumber].name.toUpperCase());
 		} catch (e) {}
 	}}"
 >
-	<div class="pointer-events-none absolute left-0 top-0 h-full w-full bg-secondary opacity-30"></div>
+	<div class="pointer-events-none absolute left-0 top-0 h-full w-full bg-secondary opacity-0"></div>
 	<div class="items-around flex h-full w-full flex-col justify-center text-wrap px-4 py-4">
 		<div class="text-3xl">
 			{options[optionNumber].name.toUpperCase()}

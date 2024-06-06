@@ -42,12 +42,12 @@
 	class="flex items-center justify-center"
 >
 	<NumberHolder>
-		<div class="flex flex-col">
-			<div>
+		<div class="flex flex-col justify-center transition-all duration-100">
+			<div class="flex items-center justify-center">
 				<p>{type}</p>
 			</div>
 			<div class="flex w-full flex-row justify-center pt-2">
-				<div class="flex h-8 items-center justify-center">
+				<div class="flex h-8 items-center justify-center rounded-2xl border-2 border-accent p-4">
 					{#if currentState == CurrentState.Up}
 						<div class="arrow up h-4 w-4 border-text"></div>
 					{:else if currentState == CurrentState.Down}

@@ -14,6 +14,9 @@
 		NPercentage = '-Percentage',
 	}
 
+	$: if ($page.url.searchParams.get('sortingBy') == null) {
+		$page.url.searchParams.set('sortingBy', CurrentSortingState.Percentage);
+	}
 	let currentSortingState = CurrentSortingState.Percentage;
 	$: {
 		currentSortingState = $page.url.searchParams.get('sortingBy') as CurrentSortingState;
@@ -30,6 +33,7 @@
 	}[];
 
 	function sortData() {
+		console.log('Got to here');
 		let atr: keyof (typeof newData)[0] = 'winningPercentage' as keyof (typeof newData)[0];
 		if (currentSortingState.toLowerCase().includes('wins')) atr = 'winningVotes' as keyof (typeof newData)[0];
 		if (currentSortingState.toLowerCase().includes('losses')) atr = 'losingVotes' as keyof (typeof newData)[0];
@@ -64,9 +68,9 @@
 		</div>
 		<main>
 			<div class="flex flex-col gap-6 pb-12 pt-4">
-				<div class="relative min-h-[4.5rem]">
+				<div class="relative min-h-[4.5rem] rounded-2xl border-2 border-accent bg-secondary">
 					<div
-						class="pointer-events-none absolute left-0 top-0 z-0 h-full w-full rounded-t-2xl bg-primary opacity-20"
+						class="pointer-events-none absolute left-0 top-0 z-0 h-full w-full rounded-t-2xl bg-primary opacity-0"
 					></div>
 					<div class="z-10 flex flex-row items-center rounded-t-2xl p-4 pt-3">
 						<div class="flex w-full flex-row">
