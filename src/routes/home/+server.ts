@@ -1,4 +1,5 @@
 import prisma from '$lib/prisma';
+import { redirect } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
 export const GET: RequestHandler = async () => {
@@ -68,6 +69,7 @@ export async function POST({ request }: { request: any }) {
 		});
 	} catch (e) {
 		console.log(e);
+		throw redirect(500, '/server-error');
 	}
 	return Promise.resolve(new Response());
 }

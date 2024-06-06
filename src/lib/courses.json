@@ -153,25 +153,25 @@
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC431", "VOC432"],
 		"classLevels": [],
-		"className": "AUTOMOTIVE COLLISION REPAIR"
+		"className": "AUTOMOTIVE COLLISION REPAIR 1"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC451", "VOC452"],
 		"classLevels": [],
-		"className": "AUTOMOTIVE COLLISION REPAIR"
+		"className": "AUTOMOTIVE COLLISION REPAIR 2"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC471", "VOC472"],
 		"classLevels": [],
-		"className": "AUTOMOTIVE SERVICE"
+		"className": "AUTOMOTIVE SERVICE 1"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC491", "VOC492"],
 		"classLevels": [],
-		"className": "AUTOMOTIVE SERVICE"
+		"className": "AUTOMOTIVE SERVICE 2"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
@@ -183,37 +183,37 @@
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC071", "VOC072"],
 		"classLevels": [],
-		"className": "COMPUTER SUPPORT SERVICES"
+		"className": "COMPUTER SUPPORT SERVICES 1"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC091", "VOC092"],
 		"classLevels": [],
-		"className": "COMPUTER SUPPORT SERVICES"
+		"className": "COMPUTER SUPPORT SERVICES 2"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC511", "VOC512"],
 		"classLevels": [],
-		"className": "CONSTRUCTION SKILLS AND MANAGEMENT"
+		"className": "CONSTRUCTION SKILLS AND MANAGEMENT 1"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC531", "VOC532"],
 		"classLevels": [],
-		"className": "CONSTRUCTION SKILLS AND MANAGEMENT"
+		"className": "CONSTRUCTION SKILLS AND MANAGEMENT 2"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC591", "VOC592"],
 		"classLevels": [],
-		"className": "COSMETOLOGY"
+		"className": "COSMETOLOGY 1"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC611", "VOC612"],
 		"classLevels": [],
-		"className": "COSMETOLOGY"
+		"className": "COSMETOLOGY 2"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
@@ -225,13 +225,13 @@
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC951", "VOC952"],
 		"classLevels": [],
-		"className": "CULINARY ARTS"
+		"className": "CULINARY ARTS 1"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC971", "VOC972"],
 		"classLevels": [],
-		"className": "CULINARY ARTS"
+		"className": "CULINARY ARTS 2"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
@@ -243,13 +243,13 @@
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC911", "VOC912"],
 		"classLevels": [],
-		"className": "EARLY EDUCATION AND TEACHING"
+		"className": "EARLY EDUCATION AND TEACHING 1"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC931", "VOC932"],
 		"classLevels": [],
-		"className": "EARLY EDUCATION AND TEACHING"
+		"className": "EARLY EDUCATION AND TEACHING 2"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
@@ -261,7 +261,7 @@
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC221", "VOC222"],
 		"classLevels": [],
-		"className": "FIRE FIGHTING"
+		"className": "FIRE FIGHTING 2"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
@@ -291,13 +291,13 @@
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC671", "VOC672"],
 		"classLevels": [],
-		"className": "MULTIMEDIA DESIGN"
+		"className": "MULTIMEDIA DESIGN 1"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC691", "VOC692"],
 		"classLevels": [],
-		"className": "MULTIMEDIA DESIGN"
+		"className": "MULTIMEDIA DESIGN 2"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
@@ -309,13 +309,13 @@
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC871", "VOC872"],
 		"classLevels": [],
-		"className": "WELDING FABRICATION"
+		"className": "WELDING FABRICATION 1"
 	},
 	{
 		"categories": ["Applied Arts", "LAKE COUNTY HIGH SCHOOL TECHNOLOGY CAMPUS COURSE OFFERINGS"],
 		"classIDs": ["VOC891", "VOC892"],
 		"classLevels": [],
-		"className": "WELDING FABRICATION"
+		"className": "WELDING FABRICATION 2"
 	},
 	{
 		"categories": ["Communication Arts"],

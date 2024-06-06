@@ -9,8 +9,9 @@ f.close()
 
 newdata = filedata.replace('.', '')
 
-remove = [' ', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+remove = [' ' ]
 letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
 newLines = []
 for line in newdata.splitlines():
@@ -19,7 +20,17 @@ for line in newdata.splitlines():
 			line = line[:-1]
 		else:
 			break
-
+	for x in line[::-1]:
+		if x in numbers:   
+			line = line[:-1]
+		else:
+			break
+	for x in line[::-1]:
+		if x in remove:   
+			line = line[:-1]
+		else:
+			break
+	
 	if (line[0] == line[1] == ' ' and line[2] != ' ') or ('course offerings' == line.lower()):
 		newLines.append(newLines.pop() + ' ' + line.removeprefix(' ').removeprefix(' '))
 	elif not ("course list" in line.lower()) and not("key: " in line.lower()):
@@ -29,6 +40,7 @@ for line in newdata.splitlines():
 newdata = '\n'.join(newLines)
 currentCategories = []
 classes = []
+
 
 def isClassID(s):
 	if (s[0] in letters) and (s[1] in letters or s[1] == '/') and s[2] in letters and s[3] in numbers:
@@ -43,7 +55,6 @@ def isCategory(s):
 	pass
 
 mainCategories = ["Applied Arts", "Communication Arts", "Computer Science, Engineering and Technology Course Offerings", "Fine Arts", "Mathematics", "Multilingual Learning", "Physical Education and Health Education", "Science", "Social Studies"]
-numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
 for line in newdata.splitlines():
 	if line[3] not in numbers and not (line[0] == line[1] == line[2] == ' '):
@@ -82,6 +93,6 @@ for line in newdata.splitlines():
 		
 f = open(fileout,'w')
 f.write(json.dumps(classes))
-#f.write(newdata)
+# f.write(newdata)
 #print(classes)
 f.close() 
