@@ -2,6 +2,7 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { type CategoryTypes } from '../../main';
+	import NumberHolder from './NumberHolder.svelte';
 	export let type: CategoryTypes;
 	enum CurrentState {
 		Up,
@@ -36,28 +37,32 @@
 </script>
 
 <a
-	class="flex w-12 flex-col items-center justify-center"
 	href="{'#'}"
 	on:click="{() => goto(getNewUrl())}"
+	class="flex items-center justify-center"
 >
-	<div>
-		<p>{type}</p>
-	</div>
-	<div class="flex w-full flex-row justify-center pt-2">
-		<div class="flex h-8 items-center justify-center">
-			{#if currentState == CurrentState.Up}
-				<div class="arrow up h-4 w-4 border-text"></div>
-			{:else if currentState == CurrentState.Down}
-				<div class="arrow down h-4 w-4 border-text"></div>
-			{:else}
-				<div class="m-0 flex flex-col p-0">
-					<div class="arrow up m-0 h-2 w-2 p-0"></div>
-					<div class="arrow down m-0 h-2 w-2 p-0"></div>
+	<NumberHolder>
+		<div class="flex flex-col">
+			<div>
+				<p>{type}</p>
+			</div>
+			<div class="flex w-full flex-row justify-center pt-2">
+				<div class="flex h-8 items-center justify-center">
+					{#if currentState == CurrentState.Up}
+						<div class="arrow up h-4 w-4 border-text"></div>
+					{:else if currentState == CurrentState.Down}
+						<div class="arrow down h-4 w-4 border-text"></div>
+					{:else}
+						<div class="m-0 flex flex-col p-0">
+							<div class="arrow up m-0 h-2 w-2 p-0"></div>
+							<div class="arrow down m-0 h-2 w-2 p-0"></div>
+						</div>
+					{/if}
 				</div>
-			{/if}
+				<!-- <div class="h-2 w-2">-</div> -->
+			</div>
 		</div>
-		<!-- <div class="h-2 w-2">-</div> -->
-	</div>
+	</NumberHolder>
 </a>
 
 <style lang="postcss">
