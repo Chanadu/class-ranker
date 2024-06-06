@@ -5,4 +5,3 @@ export const load = (async () => {
 	redirect(302, '/home');
 	return {};
 }) satisfies PageServerLoad;
-

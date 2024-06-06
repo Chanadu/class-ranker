@@ -1,5 +1,5 @@
 import {
 	writable
-} from "svelte/store";
+} from 'svelte/store';
 
 export const darkState = writable(true);
