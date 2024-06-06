@@ -1,15 +1,11 @@
 import prisma from '$lib/prisma';
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
-let classesList;
+let classesList = await prisma.class.findMany();
 
 try {
-	await prisma.$queryRaw`SELECT 1`;
-	classesList = await prisma.class.findMany();
 } catch (e) {
 	console.log(e);
-	console.log('redirecting to server error');
-	throw redirect(301, '/server-error');
 }
 
 if (classesList.length === 0) {
