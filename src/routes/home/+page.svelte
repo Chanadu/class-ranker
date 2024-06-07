@@ -3,7 +3,7 @@
 	import { sendDataToDatabase } from '../stores';
 	import Option from './option.svelte';
 	let voted = false;
-	async function voteA(option1: string, option2: string) {
+	async function vote(option1: string, option2: string) {
 		if ($sendDataToDatabase === false) {
 			invalidateAll();
 			return;
@@ -34,12 +34,12 @@
 <div class="flex h-screen w-full flex-col items-center justify-evenly pt-16 md:flex-row md:pt-0">
 	<Option
 		optionNumber="{0}"
-		vote="{voteA}"
+		vote="{vote}"
 		options="{[data.option1, data.option2]}"
 	></Option>
 	<Option
 		optionNumber="{1}"
-		vote="{voteA}"
+		vote="{vote}"
 		options="{[data.option1, data.option2]}"
 	></Option>
 </div>
