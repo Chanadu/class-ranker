@@ -11,7 +11,7 @@
 </script>
 
 <button
-	class="relative flex h-96 w-96 cursor-pointer select-none items-center justify-center rounded-2xl border-2 border-primary bg-secondary text-center align-middle shadow-sm shadow-accent transition-all duration-200 hover:-translate-y-2 hover:border-accent hover:shadow-lg active:translate-y-0 active:shadow-none disabled:pointer-events-none"
+	class="relative flex h-96 w-96 cursor-pointer select-none items-center justify-center rounded-2xl border-2 border-primary bg-container text-center align-middle transition-all duration-200 hover:-translate-y-2 hover:scale-105 hover:border-accent hover:shadow-lg active:translate-y-0 active:scale-95 active:shadow-none disabled:pointer-events-none"
 	on:click="{async () => {
 		try {
 			await vote(options[optionNumber].name.toUpperCase(), options[1 - optionNumber].name.toUpperCase());

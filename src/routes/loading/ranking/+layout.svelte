@@ -5,12 +5,12 @@
 	<title></title>
 	<meta
 		name="description"
-		content="Loading"
-		title="Loading"
+		content="Loading Ranking"
+		title="Loading Ranking"
 	/>
 </svelte:head>
 
-<div class="flex h-screen items-center justify-center text-4xl">Loading...<slot></slot></div>
+<div><slot></slot></div>
 
 <style lang="postcss">
 </style>

@@ -47,15 +47,15 @@
 				<p>{type}</p>
 			</div>
 			<div class="flex w-full flex-row justify-center pt-2">
-				<div class="flex h-8 items-center justify-center rounded-2xl border-2 border-accent p-4">
+				<div class="flex h-8 items-center justify-center rounded-2xl p-4">
 					{#if currentState == CurrentState.Up}
-						<div class="arrow up h-4 w-4 border-text"></div>
+						<div class="arrow up h-4 w-4 border-accent"></div>
 					{:else if currentState == CurrentState.Down}
-						<div class="arrow down h-4 w-4 border-text"></div>
+						<div class="arrow down h-4 w-4 border-accent"></div>
 					{:else}
 						<div class="m-0 flex flex-col p-0">
-							<div class="arrow up m-0 h-2 w-2 p-0"></div>
-							<div class="arrow down m-0 h-2 w-2 p-0"></div>
+							<div class="arrow up m-0 h-2 w-2 border-primary p-0"></div>
+							<div class="arrow down m-0 h-2 w-2 border-primary p-0"></div>
 						</div>
 					{/if}
 				</div>

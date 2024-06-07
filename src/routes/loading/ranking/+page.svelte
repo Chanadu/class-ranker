@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 
-	goto('/home');
+	goto('/ranking');
 </script>
 
 <div></div>

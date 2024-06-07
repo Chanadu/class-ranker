@@ -3,6 +3,9 @@
 	import Option from './option.svelte';
 	let voted = false;
 	async function voteA(option1: string, option2: string) {
+		setTimeout(() => {
+			goto('/loading/vote');
+		}, 50);
 		if (voted) return;
 		voted = true;
 		option1 = option1.toUpperCase();
@@ -14,12 +17,14 @@
 				option2,
 			}),
 		});
-		goto('/loading');
 	}
 	export let data;
 </script>
 
-<div class="flex h-screen flex-row items-center justify-evenly">
+<h2 class="absolute left-0 top-32 flex max-h-12 w-full flex-row items-center justify-center text-4xl text-text">
+	Vote for the "Better" Class
+</h2>
+<div class="flex h-screen w-full flex-row items-center justify-evenly">
 	<Option
 		optionNumber="{0}"
 		vote="{voteA}"

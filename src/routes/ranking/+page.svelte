@@ -60,18 +60,21 @@
 
 <div>
 	<div>
-		<div class="pb-12 pt-24">
-			<h1 class="flex flex-row justify-center pb-2 text-4xl">Class Rankings</h1>
-			<div class="flex w-full items-center justify-center">
-				<div class="h-1 w-96 rounded-2xl bg-primary"></div>
+		<div class="flex w-full items-center justify-center">
+			<div class="group w-96 pb-12 pt-24">
+				<div class="flex items-center justify-center">
+					<h1 class="inline-block justify-center pb-2 text-4xl">Class Rankings</h1>
+				</div>
+				<div class="flex items-center justify-center">
+					<div
+						class="h-1 w-96 rounded-2xl bg-primary transition-all duration-100 group-hover:bg-accent"
+					></div>
+				</div>
 			</div>
 		</div>
 		<main>
 			<div class="flex flex-col gap-6 pb-12 pt-4">
-				<div class="relative min-h-[4.5rem] rounded-2xl border-2 border-accent bg-secondary">
-					<div
-						class="pointer-events-none absolute left-0 top-0 z-0 h-full w-full rounded-t-2xl bg-primary opacity-0"
-					></div>
+				<div class="min-h-[4.5rem] rounded-2xl border-2 border-accent bg-container">
 					<div class="z-10 flex flex-row items-center rounded-t-2xl p-4 pt-3">
 						<div class="flex w-full flex-row">
 							<p class="mr-4 text-2xl">Class Name</p>
