@@ -26,7 +26,7 @@
 
 <div class="m-0 min-h-screen bg-background text-text transition-all duration-100">
 	<Navbar></Navbar>
-	<div class="mx-auto max-w-5xl">
+	<div class="mx-auto max-w-xl pt-20 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
 		<slot></slot>
 	</div>
 </div>

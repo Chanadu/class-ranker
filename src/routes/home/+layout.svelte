@@ -2,11 +2,14 @@
 </script>
 
 <svelte:head>
-<title></title>
-<meta name="description" content="Home"/>
+	<title></title>
+	<meta
+		name="description"
+		content="Home"
+	/>
 </svelte:head>
 
-<div>
+<div class="relative">
 	<slot></slot>
 </div>
 

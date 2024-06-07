@@ -21,10 +21,12 @@
 	export let data;
 </script>
 
-<h2 class="absolute left-0 top-32 flex max-h-12 w-full flex-row items-center justify-center text-4xl text-text">
+<h2
+	class="absolute left-0 top-8 flex w-full flex-row items-center justify-center text-2xl text-text md:top-12 md:text-4xl"
+>
 	Vote for the "Better" Class
 </h2>
-<div class="flex h-screen w-full flex-row items-center justify-evenly">
+<div class="flex h-screen w-full flex-col items-center justify-evenly pt-16 md:flex-row md:pt-0">
 	<Option
 		optionNumber="{0}"
 		vote="{voteA}"

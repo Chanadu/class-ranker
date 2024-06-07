@@ -8,7 +8,6 @@ export const load = (async () => {
 	try {
 		await prisma.$queryRaw`SELECT 1`;
 		response = await prisma.rankedClass.findMany();
-		console.log('A');
 	} catch (e) {
 		console.log('ERROR: ', e);
 		throw redirect(301, '/server-error');

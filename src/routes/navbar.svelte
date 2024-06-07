@@ -4,8 +4,8 @@
 	import { darkState } from './stores';
 </script>
 
-<div class="absolute top-0 flex h-20 w-full flex-row justify-center bg-container py-4 shadow-xl">
-	<div class="flex w-full max-w-4xl flex-row justify-between">
+<div class="absolute top-0 flex h-20 w-full flex-row justify-center bg-container px-4 py-4 shadow-xl">
+	<div class="flex w-full max-w-xl flex-row justify-between md:max-w-2xl lg:max-w-3xl xl:max-w-4xl">
 		<PageLink func="{() => goto('/loading/vote')}">Voting</PageLink>
 		<PageLink func="{() => goto('/loading/ranking')}">Ranking</PageLink>
 		<PageLink func="{() => darkState.update((state) => !state)}">Color</PageLink>

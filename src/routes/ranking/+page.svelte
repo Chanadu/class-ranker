@@ -20,7 +20,6 @@
 	let currentSortingState = CurrentSortingState.Percentage;
 	$: {
 		currentSortingState = $page.url.searchParams.get('sortingBy') as CurrentSortingState;
-		console.log(currentSortingState);
 		sortData();
 	}
 
@@ -33,7 +32,6 @@
 	}[];
 
 	function sortData() {
-		console.log('Got to here');
 		let atr: keyof (typeof newData)[0] = 'winningPercentage' as keyof (typeof newData)[0];
 		if (currentSortingState.toLowerCase().includes('wins')) atr = 'winningVotes' as keyof (typeof newData)[0];
 		if (currentSortingState.toLowerCase().includes('losses')) atr = 'losingVotes' as keyof (typeof newData)[0];
@@ -61,29 +59,31 @@
 <div>
 	<div>
 		<div class="flex w-full items-center justify-center">
-			<div class="group w-96 pb-12 pt-24">
+			<div class="group w-96 pb-4 pt-6 md:pb-12 md:pt-24">
 				<div class="flex items-center justify-center">
-					<h1 class="inline-block justify-center pb-2 text-4xl">Class Rankings</h1>
+					<h1 class="inline-block justify-center pb-2 text-3xl md:text-4xl">Class Rankings</h1>
 				</div>
 				<div class="flex items-center justify-center">
 					<div
-						class="h-1 w-96 rounded-2xl bg-primary transition-all duration-100 group-hover:bg-accent"
+						class="h-1 w-64 rounded-2xl bg-primary transition-all duration-100 group-hover:bg-accent md:w-96"
 					></div>
 				</div>
 			</div>
 		</div>
 		<main>
-			<div class="flex flex-col gap-6 pb-12 pt-4">
+			<div class="flex flex-col gap-6 px-4 pb-12 pt-4">
 				<div class="min-h-[4.5rem] rounded-2xl border-2 border-accent bg-container">
-					<div class="z-10 flex flex-row items-center rounded-t-2xl p-4 pt-3">
+					<div class="flex flex-row items-center rounded-t-2xl p-2 pt-3 md:p-4">
 						<div class="flex w-full flex-row">
-							<p class="mr-4 text-2xl">Class Name</p>
+							<p class="mr-4 text-xl lg:text-2xl">Class Name</p>
 						</div>
-						<div class="flex w-full flex-row-reverse gap-4 pr-2 text-xl">
+						<div
+							class="flex h-full w-full flex-row-reverse items-center gap-2 pr-2 text-lg md:text-xl lg:gap-4 lg:text-2xl"
+						>
 							<CategorySorter type="{CategoryTypes.Percentage}"></CategorySorter>
-							<p>|</p>
+							<div></div>
 							<CategorySorter type="{CategoryTypes.Losses}"></CategorySorter>
-							<p>|</p>
+							<div></div>
 							<CategorySorter type="{CategoryTypes.Wins}"></CategorySorter>
 						</div>
 					</div>
