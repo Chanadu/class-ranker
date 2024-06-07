@@ -1,8 +1,13 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
+	import { goto, invalidateAll } from '$app/navigation';
+	import { sendDataToDatabase } from '../stores';
 	import Option from './option.svelte';
 	let voted = false;
 	async function voteA(option1: string, option2: string) {
+		if ($sendDataToDatabase === false) {
+			invalidateAll();
+			return;
+		}
 		setTimeout(() => {
 			goto('/loading/vote');
 		}, 50);
