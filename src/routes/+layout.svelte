@@ -4,13 +4,22 @@
 	import { onMount } from 'svelte';
 	import '../app.css';
 	import Navbar from './navbar.svelte';
-	import { darkState } from './stores';
+	import { darkState, isBrowser } from './stores';
 	let isMounted = false;
 
 	onMount(() => {
 		isMounted = true;
 
 		$darkState ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark');
+
+		if (isBrowser && localStorage) {
+			const savedDarkState = localStorage.getItem('darkState');
+			if (savedDarkState) {
+				darkState.set(savedDarkState === 'true');
+			} else {
+				localStorage.setItem('darkState', 'true');
+			}
+		}
 	});
 
 	$: {
