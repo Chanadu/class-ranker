@@ -1,5 +1,8 @@
 # Website 
 
+## Usage
+Go to [class-ranker.vercel.app](www.class-ranker.vercel.app).
+
 ## Developing
 
 To create a development version of the Website:
