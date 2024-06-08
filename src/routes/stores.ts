@@ -15,6 +15,14 @@ export const sendDataToDatabase = writable(
 		:	localStorage.getItem('sendDataToDatabase') === 'true'
 	:	true,
 );
+export const highestHigherLowerScore = writable(
+	isBrowser && localStorage ?
+		localStorage.getItem('highestHigherLowerScore') === null ?
+			0
+		:	parseInt(localStorage.getItem('highestHigherLowerScore') ?? '0')
+	:	0,
+);
+export const currentScore = writable(0);
 
 darkState.subscribe((value) => {
 	if (isBrowser && localStorage) {
@@ -25,5 +33,11 @@ darkState.subscribe((value) => {
 sendDataToDatabase.subscribe((value) => {
 	if (isBrowser && localStorage) {
 		localStorage.setItem('sendDataToDatabase', value.toString());
+	}
+});
+
+highestHigherLowerScore.subscribe((value) => {
+	if (isBrowser && localStorage) {
+		localStorage.setItem('highestHigherLowerScore', value.toString());
 	}
 });

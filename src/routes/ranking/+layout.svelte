@@ -10,7 +10,7 @@
 	/>
 </svelte:head>
 
-<div>
+<div class="pt-20">
 	<slot></slot>
 </div>
 

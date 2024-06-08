@@ -5,7 +5,8 @@
 	<title></title>
 	<meta
 		name="description"
-		content="Home"
+		content="Higher-Lower"
+		title="Higher-Lower"
 	/>
 </svelte:head>
 

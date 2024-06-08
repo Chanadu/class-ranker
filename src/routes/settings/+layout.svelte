@@ -10,7 +10,7 @@
 	/>
 </svelte:head>
 
-<div><slot><!-- optional fallback --></slot></div>
+<div class="pt-20"><slot><!-- optional fallback --></slot></div>
 
 <style lang="postcss">
 </style>

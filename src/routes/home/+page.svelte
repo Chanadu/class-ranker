@@ -26,12 +26,12 @@
 	export let data;
 </script>
 
-<h2
-	class="absolute left-0 top-8 flex w-full flex-row items-center justify-center text-2xl text-text md:top-12 md:text-4xl"
->
-	Vote for the "Better" Class
-</h2>
-<div class="flex h-screen w-full flex-col items-center justify-evenly pt-16 md:flex-row md:pt-0">
+<div class="absolute left-0 top-8 flex w-full flex-col items-center justify-center pt-28">
+	<div class="flex-row items-center justify-center text-2xl text-text md:top-12 md:text-4xl">
+		<p>Vote for the "Better" Class</p>
+	</div>
+</div>
+<div class="flex h-screen w-full flex-col items-center justify-evenly pt-36 md:flex-row md:pt-20">
 	<Option
 		optionNumber="{0}"
 		vote="{vote}"

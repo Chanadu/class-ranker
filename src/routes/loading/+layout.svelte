@@ -18,7 +18,7 @@
 	/>
 </svelte:head>
 
-<div class="relative">
+<div class="relative flex h-screen items-center justify-center pt-20">
 	{#if showLoading}
 		<div class="top-32 flex w-full justify-center text-4xl">Loading...</div>
 	{/if}
