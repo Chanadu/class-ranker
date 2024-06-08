@@ -1,5 +1,5 @@
 export enum CategoryTypes {
-	'Name'='Name',
+	'Name' = 'Name',
 	'Wins' = 'Wins',
 	'Losses' = 'Losses',
 	'Percentage' = '%',
