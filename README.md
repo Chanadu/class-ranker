@@ -4,7 +4,7 @@
 Go to [class-ranker.vercel.app](www.class-ranker.vercel.app).
 
 ## Description
-A website where you are able to vote on the classes at Stevenson vs. others. The overall ranking of the voting is also displayed to create a list of the most highly rated classes by students.
+A website where you are able to vote on the classes at Adlai E Stevenson High School vs. other classes. The overall ranking of the voting is also displayed to create a list of the most highly rated classes by students.
 
 ## Developing
 
