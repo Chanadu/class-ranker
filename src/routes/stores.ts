@@ -1,9 +1,19 @@
 import { writable } from 'svelte/store';
 export const isBrowser = typeof window !== 'undefined';
 
-export const darkState = writable(isBrowser && localStorage ? localStorage.getItem('darkState') === 'true' : true);
+export const darkState = writable(
+	isBrowser && localStorage ?
+		localStorage.getItem('darkState') == null ?
+			true
+		:	localStorage.getItem('darkState') === 'true'
+	:	true,
+);
 export const sendDataToDatabase = writable(
-	isBrowser && localStorage ? localStorage.getItem('sendDataToDatabase') === 'true' : true,
+	isBrowser && localStorage ?
+		localStorage.getItem('sendDataToDatabase') === null ?
+			true
+		:	localStorage.getItem('sendDataToDatabase') === 'true'
+	:	true,
 );
 
 darkState.subscribe((value) => {
