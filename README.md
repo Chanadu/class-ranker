@@ -13,7 +13,9 @@ To create a development version of the Website:
 ```bash
 pnpm run dev
 ```
-
+### Development Details
+This website has been built using Svelte, Tailwind, Sveltekit, Prisma, and Supabase.
+The list of classes have been obtained using the PDF of the course book and Python.
 ## Building
 
 To create a production version of the Website:
