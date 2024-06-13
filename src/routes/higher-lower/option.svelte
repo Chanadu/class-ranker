@@ -1,13 +1,8 @@
 <script lang="ts">
+	import type { Class } from '@prisma/client';
 	import OptionsText from './options-text.svelte';
 	export let vote;
-	export let classObj: {
-		id: number;
-		name: string;
-		categories: string[];
-		officalTags: string[];
-		levels: string[];
-	};
+	export let classObj: Class;
 	let value = '';
 </script>
 

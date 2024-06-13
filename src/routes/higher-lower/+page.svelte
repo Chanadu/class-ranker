@@ -22,13 +22,14 @@
 		if (rankedClassObj[option]!.winningPercentage > rankedClassObj[1 - option]!.winningPercentage) {
 			currentState = 'correct';
 			$currentScore++;
-			$currentClassHigherLower = rankedClassObj[option].name;
+			$currentClassHigherLower = rankedClassObj[1].name;
 			setTimeout(() => {
 				goto('/loading/higher-lower');
 			}, 1000);
 		} else if (rankedClassObj[option]!.winningPercentage < rankedClassObj[1 - option]!.winningPercentage) {
 			currentState = 'wrong';
 			$currentScore = 0;
+			$currentClassHigherLower = '';
 		} else {
 			console.log('huh');
 			goto('/server-error');
@@ -43,7 +44,7 @@
 			<div class="flex w-full flex-row justify-around">
 				<div></div>
 				<div
-					class="group relative -bottom-4 cursor-pointer text-2xl text-text transition-all duration-100 hover:-translate-y-1 hover:scale-105 hover:border-accent hover:shadow-lg"
+					class="group relative -bottom-6 cursor-pointer text-2xl text-text transition-all duration-100 hover:-translate-y-1 hover:scale-105 hover:border-accent hover:shadow-lg"
 				>
 					<div
 						class="pointer-events-none relative opacity-0 transition-all duration-100 hover:scale-105 group-hover:-translate-y-2 group-hover:opacity-100"
@@ -82,7 +83,15 @@
 		</div>
 	</div>
 {:else if currentState == 'wrong'}
-	<div class="flex h-full w-full items-center justify-center text-4xl">Incorrect! Rip.</div>
+	<div class="flex h-screen w-full flex-col items-center justify-center gap-6 text-4xl">
+		<p>Incorrect! Rip.</p>
+
+		<button
+			on:click="{() => goto('/loading/higher-lower')}"
+			class="flex cursor-pointer items-center rounded-2xl border-2 border-primary p-2 text-center text-lg shadow-xl shadow-background transition-all duration-100 hover:-translate-y-1 hover:scale-105 hover:border-accent active:translate-y-0 active:scale-95 md:p-4 md:text-2xl"
+			>Try again.</button
+		>
+	</div>
 {:else}
 	HUH
 {/if}

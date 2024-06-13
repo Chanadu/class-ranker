@@ -1,11 +1,7 @@
 <script lang="ts">
-	export let classObj: {
-		id: number;
-		name: string;
-		categories: string[];
-		officalTags: string[];
-		levels: string[];
-	};
+	import type { Class } from '@prisma/client';
+
+	export let classObj: Class;
 </script>
 
 <div class="items-around flex h-full w-full flex-col justify-center text-wrap px-4 py-4">

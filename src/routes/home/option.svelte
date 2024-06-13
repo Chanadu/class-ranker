@@ -1,13 +1,9 @@
 <script lang="ts">
+	import type { Class } from '@prisma/client';
+
 	export let optionNumber: number;
 	export let vote: (option1: string, option2: string) => Promise<void>;
-	export let options: {
-		id: number;
-		name: string;
-		categories: string[];
-		officalTags: string[];
-		levels: string[];
-	}[];
+	export let options: Class[];
 </script>
 
 <button

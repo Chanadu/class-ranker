@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import type { RankedClass } from '@prisma/client';
 	import { CategoryTypes } from '../../main';
 	import CategorySorter from './CategorySorter.svelte';
 	import ClassRankingCard from './ClassRankingCard.svelte';
@@ -23,13 +24,7 @@
 		sortData();
 	}
 
-	let newData: {
-		id: number;
-		name: string;
-		winningPercentage: number;
-		winningVotes: number;
-		losingVotes: number;
-	}[];
+	let newData: RankedClass[];
 
 	function sortData() {
 		let atr: keyof (typeof newData)[0] = 'winningPercentage' as keyof (typeof newData)[0];
