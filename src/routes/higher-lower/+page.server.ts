@@ -1,13 +1,12 @@
+import { currentClassHigherLower } from '../stores';
+
 import prisma from '$lib/prisma';
 import { redirect } from '@sveltejs/kit';
-import type { PageServerLoad } from './$types';
+import console from 'console';
+import { get } from 'svelte/store';
+import type { PageServerLoad } from '../$types';
 
 let rankedClassesList = await prisma.rankedClass.findMany();
-
-try {
-} catch (e) {
-	console.log(e);
-}
 
 if (rankedClassesList.length === 0) {
 	console.log('Class List doesnt exist');
@@ -15,16 +14,38 @@ if (rankedClassesList.length === 0) {
 }
 export const load = (async () => {
 	let index;
+	let indexAlreadySet = false;
+	let currentClassHigherLowerValue = localStorage.getItem('currentClassHigherLower');
+	if (currentClassHigherLowerValue !== null && currentClassHigherLowerValue) {
+		console.log('currentClassHigherLower', get(currentClassHigherLower));
+		indexAlreadySet = true;
+		let currentClass = await prisma.class.findFirst({
+			where: {
+				name: get(currentClassHigherLower)!,
+			},
+		});
+		if (currentClass === null) {
+			throw redirect(301, '/server-error');
+		}
+		index = rankedClassesList.findIndex((rankedClass) => rankedClass.name === currentClass.name);
+	} else {
+		console.log('NO currentClassHigherLower', get(currentClassHigherLower));
+	}
 	let index2;
 	do {
-		index = Math.floor(Math.random() * (rankedClassesList.length - 1));
+		if (!indexAlreadySet) {
+			index = Math.floor(Math.random() * (rankedClassesList.length - 1));
+		}
 		index2 = Math.floor(Math.random() * (rankedClassesList.length - 1));
 		while (index === index2) {
 			index2 = Math.floor(Math.random() * (rankedClassesList.length - 1));
 		}
-	} while (rankedClassesList[index].winningPercentage === rankedClassesList[index2].winningPercentage);
+	} while (
+		(rankedClassesList[index!].winningPercentage < 0 ? 0 : rankedClassesList[index!].winningPercentage) ===
+		(rankedClassesList[index2].winningPercentage < 0 ? 0 : rankedClassesList[index2].winningPercentage)
+	);
 
-	let option1RankedClass = rankedClassesList[index];
+	let option1RankedClass = rankedClassesList[index!];
 	let option2RankedClass = rankedClassesList[index2];
 
 	let option1Class = await prisma.class.findFirst({
@@ -45,7 +66,3 @@ export const load = (async () => {
 		rankedClasses: { option1: option1RankedClass!, option2: option2RankedClass! },
 	};
 }) satisfies PageServerLoad;
-
-export const actions = async () => {
-	return;
-};

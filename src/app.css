@@ -9,6 +9,7 @@
 		--container: #f4f9ff;
 		--primary: #f77c7f;
 		--accent: #16abd1;
+		--correct: #61e63f;
 	}
 	.dark {
 		--text: #e6ebf4;
@@ -16,5 +17,6 @@
 		--container: #2e3338;
 		--primary: #984447;
 		--accent: #42bfdd;
+		--correct: #61e63f;
 	}
 }
