@@ -1,9 +1,10 @@
 import prisma from '$lib/prisma';
 import type { Class, RankedClass } from '@prisma/client';
+import { redirect } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
 export const POST: RequestHandler = async ({ request }) => {
-	const { databaseType, className } = await request.json();
+	const { databaseType, className }: { databaseType: string; className: string } = await request.json();
 
 	let currentClass: Class | Class[] | RankedClass | RankedClass[] | null;
 
@@ -29,5 +30,9 @@ export const POST: RequestHandler = async ({ request }) => {
 		}
 	}
 
-	return new Response(JSON.stringify(currentClass!));
+	if (currentClass === null) {
+		throw redirect(301, '/server-error');
+	}
+
+	return new Response(JSON.stringify(currentClass));
 };

@@ -1,21 +1,25 @@
 import type { Class, RankedClass } from '@prisma/client';
 import { get } from 'svelte/store';
 import type { PageServerLoad } from '../$types';
-import { currentClassHigherLower } from '../stores';
+import { currentClassHigherLower } from './stores';
 
 export const load: PageServerLoad = async () => {
-	let rankedClassList: RankedClass[] = await (
-		await fetch('/higher-lower', {
-			method: 'POST',
-			body: JSON.stringify({
-				databaseType: 'rankedClass',
-				className: '',
-			}),
-		})
-	).json();
+	let rankedClassList: RankedClass[] = (
+		await (
+			await fetch('/higher-lower', {
+				method: 'POST',
+				body: JSON.stringify({
+					databaseType: 'rankedClass',
+					className: '',
+				}),
+			})
+		).json()
+	).filter((rankedClass: RankedClass) => rankedClass.winningPercentage >= 0);
 
-	let index;
-	let index2;
+	console.log('rankedClassesList:', rankedClassList);
+
+	let index: number = 0;
+	let index2: number;
 	let indexAlreadySet = false;
 
 	let currentClassHigherLowerValue = get(currentClassHigherLower);
@@ -27,8 +31,6 @@ export const load: PageServerLoad = async () => {
 		index = rankedClassList.findIndex(
 			(rankedClass: RankedClass) => rankedClass.name === currentClassHigherLowerValue,
 		);
-	} else {
-		console.log('NO currentClassHigherLower', currentClassHigherLowerValue);
 	}
 
 	do {
@@ -39,10 +41,7 @@ export const load: PageServerLoad = async () => {
 		while (index === index2) {
 			index2 = Math.floor(Math.random() * (rankedClassList.length - 1));
 		}
-	} while (
-		(rankedClassList[index!].winningPercentage < 0 ? 0 : rankedClassList[index!].winningPercentage) ===
-		(rankedClassList[index2].winningPercentage < 0 ? 0 : rankedClassList[index2].winningPercentage)
-	);
+	} while (rankedClassList[index].winningPercentage === rankedClassList[index2].winningPercentage);
 
 	let option1RankedClass = rankedClassList[index!];
 	let option2RankedClass = rankedClassList[index2];

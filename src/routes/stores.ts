@@ -22,8 +22,6 @@ export const highestHigherLowerScore = writable(
 		:	parseInt(localStorage.getItem('highestHigherLowerScore') ?? '0')
 	:	0,
 );
-export const currentScore = writable(0);
-export const currentClassHigherLower = writable('');
 
 darkState.subscribe((value) => {
 	if (isBrowser && localStorage) {
