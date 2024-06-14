@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Button from '$lib/components/button.svelte';
 	import type { Class } from '@prisma/client';
 
 	export let optionNumber: number;
@@ -6,13 +7,13 @@
 	export let options: Class[];
 </script>
 
-<button
-	class="relative flex h-64 w-64 cursor-pointer select-none items-center justify-center rounded-2xl border-2 border-primary bg-container text-center align-middle shadow-xl transition-all duration-200 hover:-translate-y-2 hover:scale-105 hover:border-accent hover:shadow-lg active:translate-y-0 active:scale-95 active:shadow-none disabled:pointer-events-none md:h-72 md:w-72 lg:h-96 lg:w-96"
-	on:click="{async () => {
+<Button
+	onClick="{async () => {
 		try {
 			await vote(options[optionNumber].name.toUpperCase(), options[1 - optionNumber].name.toUpperCase());
 		} catch (e) {}
 	}}"
+	extraClasses="h-64 w-64 md:h-72 md:w-72 lg:h-96 lg:w-96"
 >
 	<div class="items-around flex h-full w-full flex-col justify-center text-wrap px-4 py-4">
 		<div class="text-lg md:text-2xl lg:text-3xl">
@@ -38,7 +39,7 @@
 				.replace('H', 'Honors')}
 		</div>
 	</div>
-</button>
+</Button>
 
 <style lang="postcss">
 </style>
