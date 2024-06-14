@@ -3,7 +3,7 @@ import { get } from 'svelte/store';
 import type { PageServerLoad } from '../$types';
 import { currentClassHigherLower } from './stores';
 
-export const load: PageServerLoad = async () => {
+export const load: PageServerLoad = async ({ fetch }) => {
 	let rankedClassList: RankedClass[] = (
 		await (
 			await fetch('/higher-lower', {
@@ -16,8 +16,6 @@ export const load: PageServerLoad = async () => {
 		).json()
 	).filter((rankedClass: RankedClass) => rankedClass.winningPercentage >= 0);
 
-	console.log('rankedClassesList:', rankedClassList);
-
 	let index: number = 0;
 	let index2: number;
 	let indexAlreadySet = false;
@@ -25,7 +23,6 @@ export const load: PageServerLoad = async () => {
 	let currentClassHigherLowerValue = get(currentClassHigherLower);
 
 	if (currentClassHigherLowerValue !== null && currentClassHigherLowerValue !== '') {
-		console.log('currentClassHigherLower', currentClassHigherLowerValue);
 		indexAlreadySet = true;
 
 		index = rankedClassList.findIndex(

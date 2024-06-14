@@ -6,7 +6,7 @@
 
 <Button
 	onClick="{onClick}"
-	extraClasses="w-auto text-lg shadow-background md:text-2xl"><slot></slot></Button
+	extraClasses="w-auto text-lg shadow-background md:text-2xl mx-4"><slot></slot></Button
 >
 
 <style lang="postcss">

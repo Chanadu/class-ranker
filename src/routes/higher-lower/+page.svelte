@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
+	import { beforeNavigate, goto } from '$app/navigation';
+	import Button from '$lib/components/button.svelte';
 	import Option from './option.svelte';
 	import ScoreDisplay from './scoreDisplay.svelte';
 	import { currentClassHigherLower, currentScore } from './stores';
@@ -13,7 +14,6 @@
 	async function voteForHigher(option: number): Promise<void> {
 		if (votedForHigher) return;
 		votedForHigher = true;
-		console.log('option: ', option);
 
 		let rankedClassObj = [rankedClasses.option1, rankedClasses.option2];
 		if (rankedClassObj[option]!.winningPercentage > rankedClassObj[1 - option]!.winningPercentage) {
@@ -32,10 +32,24 @@
 				currentState = 'wrong';
 			}, 1500);
 		} else {
-			console.log('huh');
 			goto('/server-error');
 		}
 	}
+
+	beforeNavigate((navigation) => {
+		if (
+			navigation.to?.url.pathname.toString() === '/loading/higher-lower' ||
+			navigation.to?.url.pathname.toString() === '/higher-lower'
+		) {
+			return;
+		}
+		if (!confirm('Your current score will be lost if you leave this page.')) {
+			navigation.cancel();
+			return;
+		}
+		$currentScore = 0;
+		$currentClassHigherLower = '';
+	});
 </script>
 
 {#if currentState == 'play' || currentState == 'correct'}
@@ -74,12 +88,12 @@
 {:else if currentState == 'wrong'}
 	<div class="flex h-screen w-full flex-col items-center justify-center gap-8 text-4xl">
 		Incorrect! Rip.
-
-		<button
-			on:click="{() => goto('/loading/higher-lower')}"
-			class="flex cursor-pointer items-center rounded-2xl border-2 border-primary p-4 text-center text-lg shadow-xl shadow-background transition-all duration-100 hover:-translate-y-1 hover:scale-105 hover:border-accent active:translate-y-0 active:scale-95 md:p-4 md:text-2xl"
-			>Try again.</button
-		>
+		<div class="mx-auto">
+			<Button
+				onClick="{() => goto('/loading/higher-lower')}"
+				extraClasses="w-auto h-auto">Try Again</Button
+			>
+		</div>
 	</div>
 {/if}
 
