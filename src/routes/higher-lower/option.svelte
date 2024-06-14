@@ -29,7 +29,7 @@
 
 <div class="relative flex flex-col items-center justify-center gap-4">
 	<div
-		class="relative flex h-64 w-64 cursor-pointer select-none items-center justify-center rounded-2xl border-2 border-primary bg-container text-center align-middle shadow-xl transition-all duration-200 hover:-translate-y-2 hover:scale-105 hover:border-accent hover:shadow-lg active:translate-y-0 active:scale-95 active:shadow-none disabled:pointer-events-none md:h-72 md:w-72 lg:h-96 lg:w-96"
+		class="flex h-64 w-64 select-none items-center justify-center rounded-2xl border-2 border-primary bg-container text-center align-middle shadow-xl transition-all duration-200 hover:-translate-y-1 hover:scale-105 hover:shadow-lg disabled:pointer-events-none md:h-72 md:w-72 lg:h-96 lg:w-96"
 	>
 		<OptionsText classObj="{classObj}"></OptionsText>
 	</div>
