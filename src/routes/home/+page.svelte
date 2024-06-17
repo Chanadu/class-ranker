@@ -26,7 +26,10 @@
 	export let data;
 </script>
 
-<div class="absolute left-0 top-8 flex w-full flex-col items-center justify-center {$isNavDown ? 'pt-32' : 'pt-16'}">
+<div
+	class="absolute left-0 top-8 flex w-full flex-col items-center justify-center
+	{$isNavDown ? 'pt-24 md:pt-32' : 'pt-8 md:pt-16'}"
+>
 	<div class="flex-row items-center justify-center text-2xl text-text md:text-4xl">
 		<p>Vote for the "Better" Class</p>
 	</div>
