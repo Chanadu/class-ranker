@@ -21,7 +21,7 @@
 	<div>
 		<Button
 			onClick="{() => (showHigherScore = !showHigherScore)}"
-			extraClasses="flex-col gap-4 relative"
+			extraClasses="flex-col gap-4 relative p-4"
 		>
 			<div
 				class="pointer-events-none absolute opacity-0 transition-all duration-100 hover:scale-105 group-hover:-translate-y-14 group-hover:opacity-100 {higherScoreClasses}"
