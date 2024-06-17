@@ -10,7 +10,7 @@
 	/>
 </svelte:head>
 
-<div class="overflow-hidden">
+<div class="h-full w-full">
 	<slot></slot>
 </div>
 

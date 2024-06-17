@@ -35,11 +35,11 @@
 	</div>
 
 	<div
-		class="absolute -bottom-24 flex w-full flex-row items-center justify-center gap-8 rounded-2xl text-2xl transition-all duration-200"
+		class="absolute -bottom-14 flex w-full flex-row items-center justify-center gap-4 rounded-2xl text-lg transition-all duration-200 md:-bottom-16 md:text-2xl lg:-bottom-24 lg:gap-8"
 	>
 		{#if option === 0 || showAnswer}
 			<div
-				class="flex h-full w-full items-center justify-center rounded-2xl border-2 border-accent bg-container p-4"
+				class="flex h-full w-full items-center justify-center rounded-2xl border-2 border-accent bg-container p-2 lg:p-4"
 			>
 				{percentageDisplayValue}%
 			</div>
@@ -49,14 +49,16 @@
 					showAnswer = true;
 					changePercentageDisplayValue();
 					await vote(0);
-				}}">Lower</Button
+				}}"
+				extraClasses="w-full p-2 lg:p-4">Lower</Button
 			>
 			<Button
 				onClick="{async () => {
 					showAnswer = true;
 					changePercentageDisplayValue();
 					await vote(1);
-				}}">Higher</Button
+				}}"
+				extraClasses="w-full p-2 lg:p-4">Higher</Button
 			>
 		{/if}
 	</div>

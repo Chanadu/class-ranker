@@ -39,7 +39,7 @@
 <a
 	href="{'#'}"
 	on:click="{() => goto(getNewUrl())}"
-	class="flex items-center justify-center"
+	class="flex cursor-pointer items-center justify-center transition-all duration-100"
 >
 	<NumberHolder>
 		<div class="flex flex-col justify-center transition-all duration-100">

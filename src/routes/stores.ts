@@ -1,6 +1,8 @@
 import { writable } from 'svelte/store';
 export const isBrowser = typeof window !== 'undefined';
 
+export const isNavDown = writable(true);
+
 export const darkState = writable(
 	isBrowser && localStorage ?
 		localStorage.getItem('darkState') == null ?

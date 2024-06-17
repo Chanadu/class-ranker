@@ -13,7 +13,11 @@ export default {
 			'accent': 'var(--accent)',
 			'correct': 'var(--correct)',
 		},
-		extend: {},
+		extend: {
+			screens: {
+				'xs': '375px',
+			}
+		},
 	},
 
 	plugins: [],

@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { darkState, sendDataToDatabase } from './../stores';
+	import { darkState, isNavDown, sendDataToDatabase } from './../stores';
 	import ToggleStoreUsingButton from './ToggleStoreUsingButton.svelte';
 </script>
 
-<div class="mx-auto flex max-w-96 flex-col gap-8 py-12">
+<div class="mx-auto flex max-w-96 flex-col gap-8 {$isNavDown ? 'pt-24' : 'pt-2'}">
 	<ToggleStoreUsingButton
 		toggleStateVar="{() => {
 			$darkState = !$darkState;
